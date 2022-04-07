@@ -2,14 +2,14 @@
 
 LE CASSE BRIQUE/PONG:
 
-Ce jeu est la fusion du casse brique et du pig-pong.
-Le but du jeu est de renvoyer une balle à l'aide d'une planche.
-Il faut toucher le plafond pour accumuler des points.
-A chaque fois que la balle touche le plafond, la planche ou les bords. La balle rebondie.
-A noter, à chaque fois que la balle touche le plafond, elle se déplacera plus rapidement.
-A chaque début de partie le joueur possède 3 balles.
-Le joueur à perdu lorsqu'il n'aura plus de balle à sa disposition.
-Pour perdre une balle, il faut que cette dernière touche le sol.
+Ce jeu est la fusion du casse brique et du pig-pong.  
+Le but du jeu est de renvoyer une balle à l'aide d'une planche.  
+Il faut toucher le plafond pour accumuler des points.  
+A chaque fois que la balle touche le plafond, la planche ou les bords. La balle rebondie.  
+A noter, à chaque fois que la balle touche le plafond, elle se déplacera plus rapidement.  
+A chaque début de partie le joueur possède 3 balles.  
+Le joueur à perdu lorsqu'il n'aura plus de balle à sa disposition.  
+Pour perdre une balle, il faut que cette dernière touche le sol.  
 
 Décomposition en sous problème:
 
