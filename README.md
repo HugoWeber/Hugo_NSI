@@ -20,13 +20,19 @@ Créer une fonction permettant de faire apparaitre en même temps le score et le
 Créer une fonction permettant d'accumuler des points en temps réelle.
 Créer une fonction permettant à la balle d'être propulser à chaque début de partie et à chaque fois que le joueur perd une balle (garder le score initial après la perte d'une balle).
 Créer une fonction permettant à la balle de gagner en vitesse à chaque fois qu'elle touche le plafond.
+Détection de collison entr ela balle et la planche, les bords, le sol, le plafond.
 Afficher Game over lorsque le joueur ne possède plus de balle.
 
 MVP:
-
+(à simplifier)
 Lorsque la balle est lancé, elle se dirigera vers le plafond à gauche. 
 A chaque fois qu'elle touche les rebords elle change de direction. 
 Après avoir toucher le plafond, on gagne un point et la vitesse de la balle augmente puis elle se dirigera vers le bas.
 Lorsqu'elle touche la planche elle se dirigera à nouveau vers le plafond à la même vitesse et avec le m^^eme sens de direction avant même que la balle touche le plafond.
 On remarque que au file de la partie que le joeur perds des balles.
 Après avoir perdus ses trois balles le jeu affiche "Game over" puis "voulez-vous rejouer".
+
+
+SDD:
+terrain = zone avec coordonnées en pixels des bords: hauteurs du plafond et du sol. Position abscisse des bords G et D
+planche et balle définient par des corrdonées (tuples) du type (abscisse, ordonnées) pour la MVP. A complexifié si besoin après.
