@@ -33,6 +33,6 @@ On remarque que au file de la partie que le joeur perds des balles.
 Après avoir perdus ses trois balles le jeu affiche "Game over" puis "voulez-vous rejouer".  
 
 
-SDD:  
+SDD:  ()
 terrain = zone avec coordonnées en pixels des bords: hauteurs du plafond et du sol. Position abscisse des bords G et D  
 planche et balle définient par des corrdonées (tuples) du type (abscisse, ordonnées) pour la MVP. A complexifié si besoin après.  
