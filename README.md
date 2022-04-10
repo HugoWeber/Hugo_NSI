@@ -24,7 +24,7 @@ Détection de collison entr ela balle et la planche, les bords, le sol, le plafo
 Afficher Game over lorsque le joueur ne possède plus de balle.  
 
 MVP:  
-(à simplifier)  
+(à simplifier)   
 Lorsque la balle est lancé, elle se dirigera vers le plafond à gauche.   
 A chaque fois qu'elle touche les rebords elle change de direction.   
 Après avoir toucher le plafond, on gagne un point et la vitesse de la balle augmente puis elle se dirigera vers le bas.  
