@@ -2,7 +2,7 @@
 
 LE CASSE BRIQUE:  
  
-Le but du casse brique est d'envoyer une balle à l'aide d'une planche pour casser des briques.
+Le but du casse brique est d'envoyer une balle à l'aide d'une planche pour casser des briques et donc gagner des points.  
 
 Décomposition en sous problème:  
 
