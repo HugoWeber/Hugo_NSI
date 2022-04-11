@@ -29,7 +29,7 @@ Elle se dirige vers le haut, puis touche le plafond. On gagne alors 1 point.
 Elle rebondi et se dirige alors vers le bas.  
 Elle touche alors la planche et elle rebondie.  
 
-:  ()
+SDD:  
 Affichage d'un terrain à l'aide de coordonnées en pixel. (les bords du terrain, le plafond et le sol).  
-Position de la planche avec des coordonnées fixe. Ainsi que sa ligne de déplacement ("D"et"G").  
-planche et balle définient par des corrdonées (tuples) du type (abscisse, ordonnées) pour la MVP. A complexifié si besoin après.  
+Position de la planche avec des coordonnées fixe. Ainsi que sa ligne de déplacement ("D"et"G").   
+Position de la balle avec des coordonnnées définie  (tuples) du type (abscisse, ordonnées).  
