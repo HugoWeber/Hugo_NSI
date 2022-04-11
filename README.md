@@ -24,15 +24,12 @@ Détection de collison entr ela balle et la planche, les bords, le sol, le plafo
 Afficher Game over lorsque le joueur ne possède plus de balle.  
 
 MVP:  
-(à simplifier)   
-Lorsque la balle est lancé, elle se dirigera vers le plafond à gauche.   
-A chaque fois qu'elle touche les rebords elle change de direction.   
-Après avoir toucher le plafond, on gagne un point et la vitesse de la balle augmente puis elle se dirigera vers le bas.  
-Lorsqu'elle touche la planche elle se dirigera à nouveau vers le plafond à la même vitesse et avec le m^^eme sens de direction avant même que la balle touche le plafond.  
-On remarque que au file de la partie que le joeur perds des balles.  
-Après avoir perdus ses trois balles le jeu affiche "Game over" puis "voulez-vous rejouer".  
+La balle est lancé.  
+Elle se dirige vers le haut, puis touche le plafond. On gagne alors 1 point.  
+Elle rebondi et se dirige alors vers le bas.  
+Elle touche alors la planche et elle rebondie.  
 
-
-SDD:  ()
-terrain = zone avec coordonnées en pixels des bords: hauteurs du plafond et du sol. Position abscisse des bords G et D  
+:  ()
+Affichage d'un terrain à l'aide de coordonnées en pixel. (les bords du terrain, le plafond et le sol).  
+Position de la planche avec des coordonnées fixe. Ainsi que sa ligne de déplacement ("D"et"G").  
 planche et balle définient par des corrdonées (tuples) du type (abscisse, ordonnées) pour la MVP. A complexifié si besoin après.  
