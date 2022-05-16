@@ -28,4 +28,61 @@ En fonction des résultat, l'un des joeurs gagne, l'autre perd.
 Mais il est possible qu'ils prennet le même objet, alors c'est une égalité.  
 
 
-Cahier Journal:  
+Cahier Journal:    
+
+Jour1: - Règle du jeu  
+       - Décomposition en sous problème.  
+       - MVP  
+       
+Jour2: Création cahier journal.  
+
+Jour3: Début des recherche poue la création du Pierre/Feuille/Ciseau.  
+
+Jour4: Création des définition (début)  
+
+Jour5: Création des définition (fin)  
+
+Jour 6: Création du programme permettant de donner les 9 solutions. (début)  
+
+Jour 7: Création du programme permettant de donner les 9 solutions. (fin)  
+
+Jour8: Création du dernier programme indiquant le gagnant ou si c'est une égalité.  
+
+
+Programme:
+
+def menu():
+
+    print("       |    PIERRE    |")
+    print("       |    FEUILLE   |")
+    print("       |    CISEAUX   |")
+    
+    print("1 - Regle")
+    print("2 - Jouer")
+    
+    choix = int(input("Indiquer votre choix : " ))
+    if choix == 1:
+        regle()
+    elif choix == 2:
+        jeu()
+    else:
+        return menu()
+
+
+
+
+
+
+
+
+
+def regle():
+
+    print("La Pierre bat les Ciseaux")
+    print("La Feuille bat la Pierre")
+    print("Les Ciseaux battent la Feuille")
+    print("Si vous et l'ordinateur avez") 
+    print ("le meme objet, il y a egalite")
+    
+
+       
