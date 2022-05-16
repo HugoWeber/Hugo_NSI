@@ -1,27 +1,31 @@
-# Hugo_NSI
+# Hugo_NSI  
 
-LE CASSE BRIQUE:  
- 
-Le but du casse brique est d'envoyer une balle à l'aide d'une planche pour casser des briques et donc gagner des points.  
+Règle du jeu:
 
-Décomposition en sous problème:  
+Le Pierre/Feuille/Ciseau ce joue avec deux personnes.  
+Dans ce jeu vous pouvez utilisés soit:  
+La Pierre  
+La Feuille  
+Le Ciseau  
+En fonction des objets utilisés, l'un des deux joueurs gagne, l'autre perd.  
+Il estv posiible que les deux jpueurs utilisent le même objet, c'est une égalité.  
 
-Faire apparaitre le jeu à l'aide de Tkinter (à faire plus tard).  
-Faire apparaitre la balle (en noir), la planche (en noir), les briques en rouge.  
-Créer une fonction permettant au joueur de déplacer la planche.
-Créer une fonction permettant de faire apparaitre en même temps le score et le nombre de vie à chaque début de partie (faire apparaitre au joueur le nombre de vie restant à chaque fois qu'il en perd une).  
-Créer une fonction permettant d'accumuler des points en temps réelle.  
-Créer une fonction permettant à la balle d'être propulser à chaque début de partie et à chaque fois que le joueur perd une balle (garder le score initial après la perte d'une balle).    
-Détection de collison entre la balle, la planche, les bords, le sol, le plafond.  
-Afficher Game over lorsque le joueur ne possède plus de balle.  
+Décomposition en sous problèpe:  
 
-MVP:  
-La balle est lancé.  
-Elle se dirige vers le haut, puis touche une brique. On gagne alors 1 point.  
-Elle rebondi et se dirige alors vers le bas.  
-Elle touche alors la planche et elle rebondie à nouveau.  
+Création de définitions, la première affichera un menu, la seconde donnera la règle du jeun au joeur et la troisième donnera à chaque objet un chifre qui lui sera propre(En gros poser la quetion suivante au joueur: "Choisir un chifre entre 1(Pierre), 2(Feuille) et 3(Ciseau)".  
+Créer un programme permettant de donne les 9 solutions possible.  
+Créer 3 image :   
+1er image, signe de la Pierre  
+2e image, signe de la Feuille  
+3e image, signe du Ciseau  
+Création d'un programmeatribuant chaque chifre à la bonne impage.  
+Création d'un programme indiquant le gagnant ou si c'est une égalité.  
 
-SDD:  
-Affichage d'un terrain à l'aide de coordonnées en pixel. (les bords du terrain, le plafond et le sol).  
-Position de la planche avec des coordonnées fixe. Ainsi que sa ligne de déplacement ("D"et"G").   
-Position de la balle avec des coordonnnées définie  (tuples) du type (abscisse, ordonnées).  
+MVP:   
+
+Les deux joueur pense à un objet.  
+En fonction des résultat, l'un des joeurs gagne, l'autre perd.  
+Mais il est possible qu'ils prennet le même objet, alors c'est une égalité.  
+
+
+Cahier Journal:  
