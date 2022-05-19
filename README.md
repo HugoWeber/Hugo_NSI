@@ -51,15 +51,67 @@ Jour8: Création du dernier programme indiquant le gagnant ou si c'est une égal
 
 Programme:
 
-def menu():
+from random import randint
+choix = ["Pierre", "Feuille", "Ciseaux"]
+ordi = choix[randint(0,2)]
 
+
+
+def regle():
+    
+    print("La Pierre bat les Ciseaux. La Feuille bat la Pierre. Les Ciseaux battent la Feuille. Si vous et l'ordinateur avez le meme objet, il y a egalite")
+    
+    go_menu = float(input("Tapez 9 quand vous aurez fini de lire : "))
+    if go_menu == 9:
+        return menu()
+    else:
+        return menu
+    
+    
+
+def jeu():
+    score_ordi = 0
+    score_joueur = 0
+    
+    point = int(input("Choississez le  nombre de points a atteindre pour gagner : "))
+    if point == 0:
+        return jeu()
+    
+    while score_ordi < point and score_joueur < point:
+        print("Le score est de", score_joueur, "a", score_ordi,)
+        
+        choix_joueur = int(input("Que voulez vous choisir 1 = Pierre  /  2 = Feuille   /  3 = Ciseaux : "))
+        ordi = choix[randint(0,2)]
+        
+        if choix_joueur == 1:
+            print("Vous avez choisi Pierre")
+            print("L'ordinateur a choisi", ordi)
+        elif choix_joueur == 2:
+            print("Vous avez choisi Feuille")
+            print("L'ordinateur a choisi", ordi)
+        elif choix_joueur == 3:
+            print("Vous avez choisi Ciseaux")
+            print("L'ordinateur a choisi", ordi)
+        
+        if choix_joueur == 1 and ordi == "Ciseaux" or choix_joueur == 2 and ordi == "Pierre" or choix_joueur == 3 and ordi == "Feuille":
+            score_joueur = score_joueur + 1
+            print("Vous marquez 1 point")
+        elif choix_joueur == 1 and ordi == "Feuille" or choix_joueur == 2 and ordi == "Ciseaux" or choix_joueur == 3 and ordi == "Pierre":
+            score_ordi = score_ordi + 1
+            print("L'ordinateur marque 1 point")
+        elif choix_joueur == 1 and ordi == "Pierre" or choix_joueur == 2 and ordi == "Feuille" or choix_joueur == 3 and ordi == "Ciseaux":
+            print("Egalite")
+        else:
+            print("1, 2 ou 3\nC'est pas complique") 
+    
+       
+    
+    def menu():
     print("       |    PIERRE    |")
     print("       |    FEUILLE   |")
     print("       |    CISEAUX   |")
-    
     print("1 - Regle")
     print("2 - Jouer")
-    
     choix = int(input("Indiquer votre choix : " ))
     if choix == 1:
         regle()
@@ -67,6 +119,18 @@ def menu():
         jeu()
     else:
         return menu()
+
+menu()
+
+
+
+
+
+  
+    
+
+
+    
 
 
 
